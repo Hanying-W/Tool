@@ -32,7 +32,7 @@ def Transit(i, j):
             file = open('EndName.txt', 'a')
             file.write(str(k) + '\n')
             file.close()
-            print("编号为{}的小说正在连载中".format(k))
+            print("编号为{}的小说已完结".format(k))
 
 
 if __name__ == '__main__':
